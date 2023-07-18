@@ -1,7 +1,7 @@
 baseURL = ""
 theme = "DoIt"
 themesDir = "themes"
-title = "forgotten crossroads"
+title = "shift's place"
 defaultContentLanguage = "en"
 languageCode = "en"
 languageName = "English"
@@ -15,9 +15,9 @@ enableEmoji = false
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [author]
-  name = "aspect"
-  email = "heavydenial@proton.me"
-  link = "https://aspectsides.site"
+  name = "mkshift"
+  email = "mkshift@tuta.io"
+  link = "https://shift.is-a.dev"
 
 [menu]
   [[menu.main]]
@@ -50,15 +50,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
     post = ""
     name = ""
-    url = "https://github.com/aspectsides/aspectsides.github.io"
+    url = "https://github.com/mkshift/mkshift.github.io"
     title = "GitHub"
 
 [params]
   defaultTheme = "auto"
-  gitRepo = "https://github.com/aspectsides/aspectsides.github.io"
+  gitRepo = "https://github.com/mkshift/mkshift.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
-  title = "forgotten crossroads"
+  title = "shift's place"
   description = "A repository of my ramblings, findings and projects. Hope you find these useful in some way."
   images = ["/images/dead-airspace.png"]
 
@@ -67,7 +67,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     mobileMode = "auto"
     [params.header.title]
       logo = "/favicons/favicon.ico"
-      name = "forgotten crossroads"
+      name = "shift's place"
       pre = ""
       post = ""
       typeit = true
@@ -93,7 +93,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     rss = 10
 
   [params.app]
-    title = "forgotten crossroads"
+    title = "shift's place"
     noFavicon = false
     svgFavicon = "/favicons/favicon.ico"
     themeColor = "#ffffff"
@@ -116,19 +116,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       gravatarEmail = ""
       avatarURL = "/images/profile.png"
-      title = "Greetings. Traveller."
-      subtitle = "You find yourself in the forgotten Crossroads. An area that has long been abandoned by those that used to live here. I'm Aspect, your guide, and I will do my utmost to get you out of here alive."
-      typeit = true
+      title = "Hey. I'm Daniel."
+      subtitle = "I'm a student from San Jose, California. I like doing stuff, I guess."
+      typeit = false
       social = true
       disclaimer = "Tread Carefully."
     [params.home.posts]
       enable = true
       paginate = 6
   [params.social]
-    GitHub = "aspectsides"
+    GitHub = "mkshift"
     Gitlab = "radiumz"
     Discord = "radiumz."
-    Email = "heavydenial@proton.me"
+    Email = "mkshift@tuta.io"
     RSS = ""
 
   [params.page]
